@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiz", "Quiz\Quiz.csproj", "{D637504B-1BAE-4E10-BCFB-3F54C2D01262}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiz_201830113_맹성호", "Quiz_201830113_맹성호\Quiz_201830113_맹성호.csproj", "{ED653237-8D61-4AC8-829D-C252C1AEDB90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D637504B-1BAE-4E10-BCFB-3F54C2D01262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D637504B-1BAE-4E10-BCFB-3F54C2D01262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D637504B-1BAE-4E10-BCFB-3F54C2D01262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D637504B-1BAE-4E10-BCFB-3F54C2D01262}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED653237-8D61-4AC8-829D-C252C1AEDB90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED653237-8D61-4AC8-829D-C252C1AEDB90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED653237-8D61-4AC8-829D-C252C1AEDB90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED653237-8D61-4AC8-829D-C252C1AEDB90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2274FF3C-1929-4D88-933A-6D2198FA4981}
+	EndGlobalSection
+EndGlobal

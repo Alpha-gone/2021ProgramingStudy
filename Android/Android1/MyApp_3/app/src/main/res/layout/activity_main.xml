@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#32B624"
+        android:text="ok"
+        android:textColor="#739328"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cancel" />
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#771C1C"
+        android:enabled="true"
+        android:fontFamily="monospace"
+        android:text="Result"
+        android:textColor="#1565C0"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/eT_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="title" />
+
+    <CheckBox
+        android:id="@+id/cb_beer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:enabled="true"
+        android:gravity="bottom|right"
+        android:text="beer" />
+
+    <CheckBox
+        android:id="@+id/cb_wine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="wine" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rB_man"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="true"
+            android:fontFamily="sans-serif-medium"
+            android:text="man"
+            android:textAlignment="center"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/rB_woman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="woman"
+            android:textColor="#4527A0" />
+    </RadioGroup>
+
+    <Switch
+        android:id="@+id/sw_door"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#A83333"
+        android:fontFamily="casual"
+        android:text="door" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioButton
+            android:id="@+id/rB_y"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="ㅖ" />
+
+        <RadioButton
+            android:id="@+id/rB_n"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:text="ㄴ" />
+
+        <RadioButton
+            android:id="@+id/rB_give"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="giveup" />
+
+        <ImageView
+            android:id="@+id/imgV_beer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            app:srcCompat="@drawable/beer" />
+    </RadioGroup>
+
+</LinearLayout>

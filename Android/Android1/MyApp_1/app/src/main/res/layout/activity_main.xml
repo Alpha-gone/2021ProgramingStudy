@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/bt_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEST BUTTON"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CheckBox"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="292dp" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="364dp" />
+
+    <EditText
+        android:id="@+id/ed_Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <Button
+        android:id="@+id/bt_Exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EXIT" />
+
+    <Button
+        android:id="@+id/bt_Internet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Internet" />
+
+    <Button
+        android:id="@+id/bt_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="phone" />
+
+</LinearLayout>

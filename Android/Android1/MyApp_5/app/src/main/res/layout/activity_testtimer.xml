@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TesttimerActivity">
+
+    <TimePicker
+        android:id="@+id/tp_Time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:timePickerMode="clock"/>
+
+    <TextView
+        android:id="@+id/tv_Time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time = "
+        android:textSize="40sp"/>
+
+    <Button
+        android:id="@+id/bt_Time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time view"/>
+
+    <Button
+        android:id="@+id/bt_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GO main"/>
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bt_sub_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#AE1111"
+        android:text="sub_1" />
+
+    <Button
+        android:id="@+id/bt_sub_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#AE1111"
+        android:text="sub_2" />
+
+    <Button
+        android:id="@+id/bt_sub_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#AE1111"
+        android:text="sub_3" />
+
+    <EditText
+        android:id="@+id/ed_myName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="MyName" />
+
+    <EditText
+        android:id="@+id/ed_myBirthDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="MyBirthDay YYYY/MM/DD" />
+
+    <CheckBox
+        android:id="@+id/cb_viewImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VIewImage" />
+
+    <Button
+        android:id="@+id/bt_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#AE1111"
+        android:text="RESULT" />
+
+</LinearLayout>
